@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.7.2)
 
 
 project(libzippp VERSION 2.1)
-message("${PROJECT_SOURCE_DIR}/cmake")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 
 find_package(ZLIB REQUIRED)
